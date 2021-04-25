@@ -18,34 +18,56 @@
     
     <!-- represents introductory content -->
     <header id='header'>
-         <img id='header-img' src="" alt="electric motor company logo">
+         <img id='header-img' src="imgs/electricgear.png" alt="electric motor company logo">
          <nav id='nav-bar'>
             <!-- These will reference to different parts of the design -->
-            <a class='nav-link' href="#features">Features</a> |
-            <a class='nav-link' href="#demo">See it in Action</a> |
-            <a class='nav-link' href="#pricing">Pricing</a> |
-            <a class='nav-link' href="#reviews">Reviews</a>
+            <a class='nav-link' href="#featureAnc">Features</a> |
+            <a class='nav-link' href="#demoAnc">Demo</a> |
+            <a class='nav-link' href="#reviewAnc">Reviews</a> |
+            <a class='nav-link' id='buyNav' href="#buyAnc">Buy Now</a>
          </nav> 
     </header>
     <div id='main'>
+        <h1 id='intro'>Ready To Change the Your Life?</h1>
+        <div id='featureAnc' class='anchor'></div>
         <div id='features'>
-        <video id='video' width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
+            <h2 id='h2feat'>Features</h2>
+            <div class="row">
+                <img class='icon-img' src="imgs/turbo.png" alt="turbo icon">
+                <p class='featP'><b>Instant Torque</b> - Get instantly pushed back into your seat</p>
+            </div>
+            <div class="row">
+                <img class='icon-img' src="imgs/dollar.png" alt="dollar icon">
+                <p class='featP'><b>Save Thousands on Fuel</b> - Save $2k+ Per Year on Fuel</p>
+            </div>
+            <div class="row">
+                <img class='icon-img' src="imgs/nooil.png" alt="no oil icon">
+                <p class='featP'><b>No More Oil Changes!</b> - Electric motors require no oil changes</p>
+            </div>
         </div>
+        <div id='demoAnc' class='anchor'></div>
         <div id='demo'>
+            <h2>Demostration</h2>
+            <iframe id='video' width="600" height="400" src="https://www.youtube-nocookie.com/embed/PX5XE5mMF38?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=true>
+            </iframe>
         </div>
-        <div id='pricing'>
-        </div>
+        <div id='reviewAnc' class='anchor'></div>
         <div id='reviews'>
+            <h2 id='revh2'>Reviews</h2>
+            <p class='revP'>10/10 : "I don't know what else to say. Just what I was looking for." <br> - Mehetabel . </p>
+            <p class='revP'>9/10 : "I will refer everyone I know. I like Electric Motor Retrofit more and more each day because it makes my life a lot easier." <br> - Kesley Y. </p>
+            <p class='revP'>9.5/10 : "I wish I would have thought of it first. Your company is truly upstanding and is behind its product 100%." <br> - Ariadne S. </p>
         </div>
-        <form id='form' method="post" action="https://www.freecodecamp.com/email-submit">
-            <label id="email-label" for="email">EMAIL</label>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-            <input id="submit" type="submit" value="Submit Answers">
-        </form>
+        <div id='buyAnc' class='anchor'></div>
+        <div id='buyNow'>
+            <h2 id='buyH2'>BUY</h2>
+            <p class='buyP'>Starting from $9999</p>
+            <form id='form' method="post" action="https://www.freecodecamp.com/email-submit">
+                <label id="email-label" for="email">Enter Your Email for a Free Consultation</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                <input id="submit" type="submit" value="Submit Email for Free Consultation">
+            </form>
+        </div>
     </div>
     <!-- Used to test the webpage against FCC requirements -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
