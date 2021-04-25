@@ -5,7 +5,9 @@ Part of Free Code Camp - 300 hour Responsive Web Design Course
 After following the requirements below and passing the 16 unit tests this was my final product: 
 
 TEMP PLACEHOLDER GIF
+
 ![Webpage](https://github.com/The0z/SurveyForm2021/blob/main/imgs/webpageV2.gif "Car Survey")
+
 TEMP PLACEHOLDER GIF
 
 
