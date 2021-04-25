@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) {
+    /* for desktop - always design for mobile first! */
+    #main {width: 100%;}
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+#header{
+    background-color: red;
+    position: fixed;
+}
