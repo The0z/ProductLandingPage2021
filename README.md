@@ -4,7 +4,7 @@ Part of Free Code Camp - 300 hour Responsive Web Design Course
 ## My Results
 After following the requirements below and passing the 16 unit tests this was my final product: 
 
-![LandingPageGif](https://github.com/The0z/ProductLandingPage2021/blob/main/imgs/webpage.gif "Product Landing Page")
+![LandingPageGif](https://github.com/The0z/ProductLandingPage2021/blob/main/imgs/webpageV2.gif "Product Landing Page")
 
 ## The Requirements
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
