@@ -4,12 +4,7 @@ Part of Free Code Camp - 300 hour Responsive Web Design Course
 ## My Results
 After following the requirements below and passing the 16 unit tests this was my final product: 
 
-TEMP PLACEHOLDER GIF
-
-![Webpage](https://github.com/The0z/SurveyForm2021/blob/main/imgs/webpageV2.gif "Car Survey")
-
-TEMP PLACEHOLDER GIF
-
+![LandingPageGif](https://github.com/The0z/ProductLandingPage2021/blob/main/imgs/webpage.gif "Product Landing Page")
 
 ## The Requirements
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
@@ -29,3 +24,6 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 13. The navbar should always be at the top of the viewport.
 14. My product landing page should have at least one media query.
 15. My product landing page should utilize CSS flexbox at least once.
+
+## Passing all the tests
+![PassingTests](https://github.com/The0z/ProductLandingPage2021/blob/main/imgs/TestResults.gif "Passing Tests Landing Page")
