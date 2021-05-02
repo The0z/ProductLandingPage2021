@@ -6,6 +6,8 @@ After following the requirements below and passing the 16 unit tests this was my
 
 ![LandingPageGif](https://github.com/The0z/ProductLandingPage2021/blob/main/imgs/webpageV2.gif "Product Landing Page")
 
+Go to codepen.io to see a working copy -- https://codepen.io/the0z/full/VwPgOmp
+
 ## The Requirements
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
